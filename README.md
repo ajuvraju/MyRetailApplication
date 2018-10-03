@@ -1,9 +1,11 @@
 1.	Objective
+
 	Business objective of this project is to create the below 2 new APIs:
 	a)	To retrieve product data 
 	b)	To update product price
 
 2.	Overview
+
 	The application is written in java using Spring MVC framework. Logging is implemented using log4j and for storage MongoDB NoSQL
 	data store is used.
 	
@@ -35,10 +37,11 @@
 	      "currency":"GBP"
 	    }
 
-   The purpose of this API is to update the product price in the DataStore. User can pass the product id, price and currencycode in the  request body and this api 	will update the formattedprice and price values in the listPrice nested tag. The currency code will be converted into currency symbol for saving, and the 	symbol is converted to the code while retrieving to make the api more user friendly.
+   The purpose of this API is to update the product price in the DataStore. User can pass the product id, price and currencycode in the  request body and this api 	will update the formattedprice and price values in the listPrice nested tag. The currency code will be converted into currency symbol for saving, and the symbol is converted to the code while retrieving to make the api more user friendly.
 
 
-3.	Data sources access architecture  
+3.Data sources access architecture  
+
   All data will be persisted in  MongoDB in json format and json manipulation is done to retrieve and update the records.
   DataStore details:
 
