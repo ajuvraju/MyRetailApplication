@@ -1,0 +1,12 @@
+com\myretail\app\util\CurrencyMap.class
+com\myretail\app\dao\MyRetailAppDaoImpl.class
+com\myretail\app\service\MyRetailAppServiceImpl.class
+com\myretail\app\service\IMyRetailAppService.class
+com\myretail\app\model\ProductDetails.class
+com\myretail\app\util\MethodsUtil.class
+com\myretail\app\dao\MongoFactory.class
+com\myretail\app\model\CurrentPrice.class
+com\myretail\app\model\PriceAndCurrency.class
+com\myretail\app\controller\MyRetailAppController.class
+com\myretail\app\dao\IMyRetailAppDao.class
+com\myretail\app\util\ConstantsUtil.class
