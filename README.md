@@ -29,8 +29,8 @@ Type: POST
 Request body:
 {
 	"productId":"13860428",
-	"price":25.63,
-	"currency":"GBP"
+	"price":20.00,
+	"currency":"USD"
 }
 ```
 The purpose of this API is to update the product price in the DataStore. User can pass the product id, price and currencycode in the request body and this api will update the formattedprice and price values in the listPrice nested tag. The currency code will be converted into currency symbol for saving, and the symbol is converted to the code while retrieving to make the api more user friendly.
