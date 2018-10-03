@@ -1,5 +1,9 @@
 package com.myretail.app.util;
 
+/**
+ * @author Aju
+ *
+ */
 public class ConstantsUtil {
 	//Common Constants
 	public static final String PRODUCT = "product";

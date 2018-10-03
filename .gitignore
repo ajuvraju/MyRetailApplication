@@ -1,0 +1,10 @@
+*.svn
+*/target/*
+!*.project
+!.settings/
+!.classpath
+.metadata
+Servers
+RemoteSystemsTempFiles/
+tomcat-db/.gitignore
+

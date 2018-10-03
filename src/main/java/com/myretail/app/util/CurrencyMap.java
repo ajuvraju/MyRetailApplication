@@ -5,6 +5,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
+/**
+ * @author Aju
+ *
+ */
 public class CurrencyMap {
 
 	private static final Map<String,String> currencyUtils = getCurrencyMap();
