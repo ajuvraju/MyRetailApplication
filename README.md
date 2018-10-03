@@ -34,3 +34,24 @@ Request body:
 }
 ```
 The purpose of this API is to update the product price in the DataStore. User can pass the product id, price and currencycode in the request body and this api will update the formattedprice and price values in the listPrice nested tag. The currency code will be converted into currency symbol for saving, and the symbol is converted to the code while retrieving to make the api more user friendly.
+
+**Data Source Details**
+All data will be persisted in  MongoDB in json format and json manipulation is done to retrieve and update the records.
+DataStore details:
+```
+dbName : MyRetail
+Collection : MyRetailJsonData
+Port: localhost
+Hostname: 27017
+```
+Data Store setup instructions:
+```
+>mongo
+>use MyRetail;
+>db.createCollection(‘MyRetailJsonData’);
+```
+Tools used:
+```
+Robo 3T 1.2 – to view the Datastore details and entries.
+Git Bash : for scripting.
+```
